@@ -37,9 +37,9 @@ def convert_datetime(dataset):
 
 convert_datetime(original_data)
 tuner = GCPTuner(Tunable({
-          'epochs': hp.IntHyperParam(min = 1, max = 2),
+          'epochs': hp.IntHyperParam(min = 1, max = 15),
           'batch_size' : hp.IntHyperParam(min = 1, max = 100),
-          'embedding_dim' : hp.IntHyperParam(min = 1, max = 100),
+          'embedding_dim' : hp.IntHyperParam(min = 1, max = 256),
           'gen' : hp.IntHyperParam(min = 1, max = 1000),
           'dim_gen' : hp.IntHyperParam(min = 1, max = 1000)
         }))
@@ -50,7 +50,7 @@ real = original_data[original_data["No-show"] == "Yes"] # Filter to only those e
 # real = real.sample(n=500, replace=False, random_state=1)
 ## TRAINING LOOP START ##
 model = None
-for _ in range(10):
+for _ in range(30):
   print(_)
   # Get the hyperparameters for this loop
   proposal = None
@@ -94,3 +94,7 @@ for _ in range(10):
 
 print('Best score obtained: ', best_score)
 print('Best parameters: ', best_params)
+
+#naive
+# {'epochs': 2, 'batch_size': 26, 'embedding_dim': 57, 'gen': 362, 'dim_gen': 467}
+#{'epochs': 5, 'batch_size': 41, 'embedding_dim': 140, 'gen': 315, 'dim_gen': 209}

@@ -37,37 +37,65 @@ def convert_datetime(dataset):
 
 convert_datetime(original_data)
 tuner = GCPTuner(Tunable({
-          'epochs': hp.IntHyperParam(min = 1, max = 2),
+          'epochs': hp.IntHyperParam(min = 1, max = 10),
           'batch_size' : hp.IntHyperParam(min = 1, max = 100),
-          'embedding_dim' : hp.IntHyperParam(min = 1, max = 100),
+          'embedding_dim' : hp.IntHyperParam(min = 1, max = 256),
           'gen' : hp.IntHyperParam(min = 1, max = 1000),
           'dim_gen' : hp.IntHyperParam(min = 1, max = 1000)
         }))
 
-
+best_score = float('-inf') # Keep track of best score
+best_params = 0
 real = original_data[original_data["No-show"] == "Yes"] # Filter to only those employees that left
+# real = real.sample(n=500, replace=False, random_state=1)
 ## TRAINING LOOP START ##
+sample_sizes = [500, 10000, 39362, 100,000]
 model = None
-proposal = {'epochs': 5, 'batch_size': 41, 'embedding_dim': 140, 'gen': 315, 'dim_gen': 209}
-# Create the CopulaGAN
-model = CopulaGAN(primary_key = "AppointmentID", 
-                  embedding_dim = proposal['embedding_dim'],
-                  generator_dim = (proposal['gen'], proposal['gen']),
-                  discriminator_dim = (proposal['dim_gen'], proposal['dim_gen']),
-                  batch_size = proposal['batch_size'] * 10,
-                  epochs = proposal['epochs'])
+for _ in range(10):
+  print(_)
+  # Get the hyperparameters for this loop
+  proposal = None
+  try:
+    proposal = tuner.propose(1)
+  except:
+    print("error")
+    continue
+  # Create the CopulaGAN
+  # NOTE - batch_size is multiplied by 10 as needs to be a factor of 10
+  model = CopulaGAN(primary_key = "AppointmentID", 
+                    embedding_dim = proposal['embedding_dim'],
+                    generator_dim = (proposal['gen'], proposal['gen']),
+                    discriminator_dim = (proposal['dim_gen'], proposal['dim_gen']),
+                    batch_size = proposal['batch_size'] * 10,
+                    epochs = proposal['epochs'])
+  
+  # Fit the CopulaGAN
+  print("fit")
+  model.fit(real)
+  print("sample")
+  # Create 40000 rows of data
+  synth_data = model.sample(500, max_retries = 300)
+  
+  # Evaluate the synthetic data against the real data
+  score = evaluate(synthetic_data = synth_data, real_data = real)
+  print(score)
+  # If the new hyperparameters beat the best ones, store them along with the score
+  if score > best_score:
+    best_params = proposal
+    best_score = score
 
-# Fit the CopulaGAN
-print("fit")
-model.fit(real)
-print("sample")
-# Create 40000 rows of data
-synth_data = model.sample(40000, max_retries = 300)
+  # Record the hyperparameters and score      
+  tuner.record(proposal, score)
+  # except:
+  #   print(f"error on tuner proposal {_}")
+  
 
-# Evaluate the synthetic data against the real data
-score = evaluate(synthetic_data = synth_data, real_data = real)
-print(score)
+## TRAINING LOOP END ##
 
 
-model.save('best_copula.pkl')
-synth_data.to_csv("synth_data.csv", index = False)
+print('Best score obtained: ', best_score)
+print('Best parameters: ', best_params)
+
+#naive
+# {'epochs': 2, 'batch_size': 26, 'embedding_dim': 57, 'gen': 362, 'dim_gen': 467}
+#{'epochs': 5, 'batch_size': 41, 'embedding_dim': 140, 'gen': 315, 'dim_gen': 209}
