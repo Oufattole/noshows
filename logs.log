@@ -5388,3 +5388,630 @@
 2021-03-26 16:15:11,152:INFO:Checking exceptions
 2021-03-26 16:15:11,152:INFO:Preloading libraries
 2021-03-26 16:15:11,152:INFO:Preparing display monitor
+2021-03-27 13:02:32,160:INFO:PyCaret Supervised Module
+2021-03-27 13:02:32,160:INFO:ML Usecase: classification
+2021-03-27 13:02:32,160:INFO:version 2.3.0
+2021-03-27 13:02:32,160:INFO:Initializing setup()
+2021-03-27 13:02:32,168:INFO:Checking environment
+2021-03-27 13:02:32,169:INFO:python_version: 3.6.13
+2021-03-27 13:02:32,169:INFO:python_build: ('default', 'Feb 23 2021 21:15:04')
+2021-03-27 13:02:32,169:INFO:machine: x86_64
+2021-03-27 13:02:32,197:INFO:platform: Linux-4.14.214-160.339.amzn2.x86_64-x86_64-with-glibc2.9
+2021-03-27 13:02:32,198:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging.
+2021-03-27 13:02:32,198:INFO:Checking libraries
+2021-03-27 13:02:32,198:INFO:pd==1.1.5
+2021-03-27 13:02:32,198:INFO:numpy==1.19.5
+2021-03-27 13:02:32,198:INFO:sklearn==0.24.1
+2021-03-27 13:02:32,198:INFO:lightgbm==3.2.0
+2021-03-27 13:02:32,198:WARNING:catboost not found
+2021-03-27 13:02:32,198:WARNING:xgboost not found
+2021-03-27 13:02:32,454:INFO:mlflow==1.15.0
+2021-03-27 13:02:32,455:INFO:Checking Exceptions
+2021-03-27 13:02:32,455:INFO:Declaring global variables
+2021-03-27 13:02:32,455:INFO:USI: 810e
+2021-03-27 13:02:32,455:INFO:pycaret_globals: {'_internal_pipeline', 'fold_generator', 'imputation_regressor', 'X', '_ml_usecase', 'y', 'fix_imbalance_param', 'master_model_container', 'stratify_param', 'seed', 'exp_name_log', 'fix_imbalance_method_param', 'y_test', 'USI', 'X_train', '_all_metrics', '_gpu_n_jobs_param', 'prep_pipe', 'n_jobs_param', '_available_plots', 'fold_param', 'html_param', 'experiment__', 'transform_target_param', 'fold_shuffle_param', 'logging_param', 'log_plots_param', '_all_models_internal', 'imputation_classifier', 'transform_target_method_param', 'fold_groups_param', '_all_models', 'pycaret_globals', 'iterative_imputation_iters_param', 'target_param', 'create_model_container', 'data_before_preprocess', 'gpu_param', 'y_train', 'X_test', 'display_container'}
+2021-03-27 13:02:32,455:INFO:Preparing display monitor
+2021-03-27 13:02:32,455:INFO:Importing libraries
+2021-03-27 13:02:32,456:INFO:Copying data for preprocessing
+2021-03-27 13:02:32,459:INFO:Declaring preprocessing parameters
+2021-03-27 13:02:32,470:INFO:Creating preprocessing pipeline
+2021-03-27 13:02:32,642:INFO:Preprocessing pipeline created successfully
+2021-03-27 13:02:32,642:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2021-03-27 13:02:32,642:INFO:Creating global containers
+2021-03-27 13:02:32,643:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2021-03-27 13:02:38,415:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 13:02:38,416:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 13:02:38,549:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 13:02:38,550:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 13:02:38,550:INFO:Creating grid variables
+2021-03-27 13:02:38,576:INFO:create_model_container: 0
+2021-03-27 13:02:38,576:INFO:master_model_container: 0
+2021-03-27 13:02:38,576:INFO:display_container: 1
+2021-03-27 13:10:20,098:INFO:PyCaret Supervised Module
+2021-03-27 13:10:20,098:INFO:ML Usecase: classification
+2021-03-27 13:10:20,098:INFO:version 2.3.0
+2021-03-27 13:10:20,098:INFO:Initializing setup()
+2021-03-27 13:10:20,105:INFO:Checking environment
+2021-03-27 13:10:20,105:INFO:python_version: 3.6.13
+2021-03-27 13:10:20,105:INFO:python_build: ('default', 'Feb 23 2021 21:15:04')
+2021-03-27 13:10:20,105:INFO:machine: x86_64
+2021-03-27 13:10:20,105:INFO:platform: Linux-4.14.214-160.339.amzn2.x86_64-x86_64-with-glibc2.9
+2021-03-27 13:10:20,106:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging.
+2021-03-27 13:10:20,106:INFO:Checking libraries
+2021-03-27 13:10:20,106:INFO:pd==1.1.5
+2021-03-27 13:10:20,106:INFO:numpy==1.19.5
+2021-03-27 13:10:20,106:INFO:sklearn==0.24.1
+2021-03-27 13:10:20,106:INFO:lightgbm==3.2.0
+2021-03-27 13:10:20,106:WARNING:catboost not found
+2021-03-27 13:10:20,107:WARNING:xgboost not found
+2021-03-27 13:10:20,107:INFO:mlflow==1.15.0
+2021-03-27 13:10:20,107:INFO:Checking Exceptions
+2021-03-27 13:10:20,107:INFO:Declaring global variables
+2021-03-27 13:10:20,107:INFO:USI: b7eb
+2021-03-27 13:10:20,107:INFO:pycaret_globals: {'_internal_pipeline', 'fold_generator', 'imputation_regressor', 'X', '_ml_usecase', 'y', 'fix_imbalance_param', 'master_model_container', 'stratify_param', 'seed', 'exp_name_log', 'fix_imbalance_method_param', 'y_test', 'USI', 'X_train', '_all_metrics', '_gpu_n_jobs_param', 'prep_pipe', 'n_jobs_param', '_available_plots', 'fold_param', 'html_param', 'experiment__', 'transform_target_param', 'fold_shuffle_param', 'logging_param', 'log_plots_param', '_all_models_internal', 'imputation_classifier', 'transform_target_method_param', 'fold_groups_param', '_all_models', 'pycaret_globals', 'iterative_imputation_iters_param', 'target_param', 'create_model_container', 'data_before_preprocess', 'gpu_param', 'y_train', 'X_test', 'display_container'}
+2021-03-27 13:10:20,107:INFO:Preparing display monitor
+2021-03-27 13:10:20,108:INFO:Importing libraries
+2021-03-27 13:10:20,108:INFO:Copying data for preprocessing
+2021-03-27 13:10:20,112:INFO:Declaring preprocessing parameters
+2021-03-27 13:10:20,121:INFO:Creating preprocessing pipeline
+2021-03-27 13:10:20,278:INFO:Preprocessing pipeline created successfully
+2021-03-27 13:10:20,278:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2021-03-27 13:10:20,278:INFO:Creating global containers
+2021-03-27 13:10:20,279:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2021-03-27 13:10:26,057:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 13:10:26,058:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 13:10:26,188:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 13:10:26,189:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 13:10:26,189:INFO:Creating grid variables
+2021-03-27 13:10:26,215:INFO:create_model_container: 0
+2021-03-27 13:10:26,215:INFO:master_model_container: 0
+2021-03-27 13:10:26,215:INFO:display_container: 1
+2021-03-27 13:19:22,600:INFO:PyCaret Supervised Module
+2021-03-27 13:19:22,601:INFO:ML Usecase: classification
+2021-03-27 13:19:22,601:INFO:version 2.3.0
+2021-03-27 13:19:22,601:INFO:Initializing setup()
+2021-03-27 13:19:22,606:INFO:Checking environment
+2021-03-27 13:19:22,606:INFO:python_version: 3.6.13
+2021-03-27 13:19:22,606:INFO:python_build: ('default', 'Feb 23 2021 21:15:04')
+2021-03-27 13:19:22,606:INFO:machine: x86_64
+2021-03-27 13:19:22,636:INFO:platform: Linux-4.14.214-160.339.amzn2.x86_64-x86_64-with-glibc2.9
+2021-03-27 13:19:22,637:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging.
+2021-03-27 13:19:22,637:INFO:Checking libraries
+2021-03-27 13:19:22,637:INFO:pd==1.1.5
+2021-03-27 13:19:22,637:INFO:numpy==1.19.5
+2021-03-27 13:19:22,637:INFO:sklearn==0.24.1
+2021-03-27 13:19:22,637:INFO:lightgbm==3.2.0
+2021-03-27 13:19:22,637:WARNING:catboost not found
+2021-03-27 13:19:22,637:WARNING:xgboost not found
+2021-03-27 13:19:22,879:INFO:mlflow==1.15.0
+2021-03-27 13:19:22,879:INFO:Checking Exceptions
+2021-03-27 13:19:22,880:INFO:Declaring global variables
+2021-03-27 13:19:22,880:INFO:USI: 4655
+2021-03-27 13:19:22,880:INFO:pycaret_globals: {'data_before_preprocess', 'X', 'y', 'imputation_regressor', 'pycaret_globals', '_all_models_internal', 'gpu_param', 'imputation_classifier', 'X_train', 'fold_param', '_ml_usecase', 'exp_name_log', '_gpu_n_jobs_param', 'experiment__', 'transform_target_method_param', 'fix_imbalance_param', 'target_param', 'fold_groups_param', 'seed', 'html_param', 'stratify_param', 'USI', '_all_metrics', 'log_plots_param', 'y_train', 'n_jobs_param', 'create_model_container', 'iterative_imputation_iters_param', 'fold_generator', 'X_test', '_all_models', 'transform_target_param', 'master_model_container', 'fold_shuffle_param', '_available_plots', '_internal_pipeline', 'display_container', 'y_test', 'prep_pipe', 'logging_param', 'fix_imbalance_method_param'}
+2021-03-27 13:19:22,880:INFO:Preparing display monitor
+2021-03-27 13:19:22,880:INFO:Importing libraries
+2021-03-27 13:19:22,880:INFO:Copying data for preprocessing
+2021-03-27 13:19:22,884:INFO:Declaring preprocessing parameters
+2021-03-27 13:19:22,896:INFO:Creating preprocessing pipeline
+2021-03-27 13:19:23,073:INFO:Preprocessing pipeline created successfully
+2021-03-27 13:19:23,073:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2021-03-27 13:19:23,074:INFO:Creating global containers
+2021-03-27 13:19:23,074:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2021-03-27 13:19:28,748:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 13:19:28,749:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 13:19:28,878:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 13:19:28,879:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 13:19:28,879:INFO:Creating grid variables
+2021-03-27 13:19:28,905:INFO:create_model_container: 0
+2021-03-27 13:19:28,905:INFO:master_model_container: 0
+2021-03-27 13:19:28,906:INFO:display_container: 1
+2021-03-27 14:56:12,451:INFO:PyCaret Supervised Module
+2021-03-27 14:56:12,451:INFO:ML Usecase: classification
+2021-03-27 14:56:12,451:INFO:version 2.3.0
+2021-03-27 14:56:12,451:INFO:Initializing setup()
+2021-03-27 14:56:12,456:INFO:Checking environment
+2021-03-27 14:56:12,456:INFO:python_version: 3.6.13
+2021-03-27 14:56:12,456:INFO:python_build: ('default', 'Feb 23 2021 21:15:04')
+2021-03-27 14:56:12,456:INFO:machine: x86_64
+2021-03-27 14:56:12,489:INFO:platform: Linux-4.14.214-160.339.amzn2.x86_64-x86_64-with-glibc2.9
+2021-03-27 14:56:12,489:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging.
+2021-03-27 14:56:12,489:INFO:Checking libraries
+2021-03-27 14:56:12,489:INFO:pd==1.1.4
+2021-03-27 14:56:12,489:INFO:numpy==1.19.5
+2021-03-27 14:56:12,489:INFO:sklearn==0.23.2
+2021-03-27 14:56:12,489:INFO:lightgbm==3.2.0
+2021-03-27 14:56:12,490:WARNING:catboost not found
+2021-03-27 14:56:12,490:WARNING:xgboost not found
+2021-03-27 14:56:12,822:INFO:mlflow==1.15.0
+2021-03-27 14:56:12,822:INFO:Checking Exceptions
+2021-03-27 14:56:12,823:INFO:Declaring global variables
+2021-03-27 14:56:12,823:INFO:USI: 7f39
+2021-03-27 14:56:12,823:INFO:pycaret_globals: {'fix_imbalance_method_param', 'exp_name_log', 'fold_groups_param', 'USI', '_available_plots', '_gpu_n_jobs_param', 'logging_param', 'fold_param', 'prep_pipe', 'seed', 'fold_shuffle_param', 'fix_imbalance_param', 'n_jobs_param', 'display_container', 'pycaret_globals', 'fold_generator', 'y', 'X', 'data_before_preprocess', 'iterative_imputation_iters_param', 'X_train', 'target_param', 'imputation_classifier', 'experiment__', 'transform_target_method_param', '_all_models', 'gpu_param', 'transform_target_param', '_all_models_internal', 'X_test', '_internal_pipeline', '_ml_usecase', '_all_metrics', 'stratify_param', 'y_test', 'create_model_container', 'y_train', 'log_plots_param', 'master_model_container', 'imputation_regressor', 'html_param'}
+2021-03-27 14:56:12,823:INFO:Preparing display monitor
+2021-03-27 14:56:12,823:INFO:Importing libraries
+2021-03-27 14:56:12,823:INFO:Copying data for preprocessing
+2021-03-27 14:56:12,827:INFO:Declaring preprocessing parameters
+2021-03-27 14:56:12,839:INFO:Creating preprocessing pipeline
+2021-03-27 14:56:13,013:INFO:Preprocessing pipeline created successfully
+2021-03-27 14:56:13,013:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2021-03-27 14:56:13,013:INFO:Creating global containers
+2021-03-27 14:56:13,014:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2021-03-27 14:56:18,717:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 14:56:18,718:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 14:56:18,849:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 14:56:18,850:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 14:56:18,850:INFO:Creating grid variables
+2021-03-27 14:56:18,876:INFO:create_model_container: 0
+2021-03-27 14:56:18,876:INFO:master_model_container: 0
+2021-03-27 14:56:18,877:INFO:display_container: 1
+2021-03-27 14:56:18,885:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['Gender',
+                                                            'Scholarship',
+                                                            'Hipertension',
+                                                            'Diabetes',
+                                                            'Alcoholism',
+                                                            'Handicap',
+                                                            'SMS_received',
+                                                            'Appointment_day_name',
+                                                            'Register_day_name'],
+                                      display_types=False,
+                                      features_todrop=['PatientId',
+                                                       'AppointmentID'],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=['Age',
+                                                          'Ap...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='No-show')),
+                ('fix_perfect', Remove_100(target='No-show')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2021-03-27 14:56:18,885:INFO:setup() succesfully completed......................................
+2021-03-27 14:56:27,979:INFO:PyCaret Supervised Module
+2021-03-27 14:56:27,979:INFO:ML Usecase: classification
+2021-03-27 14:56:27,980:INFO:version 2.3.0
+2021-03-27 14:56:27,980:INFO:Initializing setup()
+2021-03-27 14:56:27,986:INFO:Checking environment
+2021-03-27 14:56:27,987:INFO:python_version: 3.6.13
+2021-03-27 14:56:27,987:INFO:python_build: ('default', 'Feb 23 2021 21:15:04')
+2021-03-27 14:56:27,987:INFO:machine: x86_64
+2021-03-27 14:56:27,987:INFO:platform: Linux-4.14.214-160.339.amzn2.x86_64-x86_64-with-glibc2.9
+2021-03-27 14:56:27,987:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging.
+2021-03-27 14:56:27,987:INFO:Checking libraries
+2021-03-27 14:56:27,987:INFO:pd==1.1.4
+2021-03-27 14:56:27,987:INFO:numpy==1.19.5
+2021-03-27 14:56:27,987:INFO:sklearn==0.23.2
+2021-03-27 14:56:27,988:INFO:lightgbm==3.2.0
+2021-03-27 14:56:27,988:WARNING:catboost not found
+2021-03-27 14:56:27,988:WARNING:xgboost not found
+2021-03-27 14:56:27,988:INFO:mlflow==1.15.0
+2021-03-27 14:56:27,988:INFO:Checking Exceptions
+2021-03-27 14:56:27,989:INFO:Declaring global variables
+2021-03-27 14:56:27,989:INFO:USI: f0b7
+2021-03-27 14:56:27,989:INFO:pycaret_globals: {'fix_imbalance_method_param', 'exp_name_log', 'fold_groups_param', 'USI', '_available_plots', '_gpu_n_jobs_param', 'logging_param', 'fold_param', 'prep_pipe', 'seed', 'fold_shuffle_param', 'fix_imbalance_param', 'n_jobs_param', 'display_container', 'pycaret_globals', 'fold_generator', 'y', 'X', 'data_before_preprocess', 'iterative_imputation_iters_param', 'X_train', 'target_param', 'imputation_classifier', 'experiment__', 'transform_target_method_param', '_all_models', 'gpu_param', 'transform_target_param', '_all_models_internal', 'X_test', '_internal_pipeline', '_ml_usecase', '_all_metrics', 'stratify_param', 'y_test', 'create_model_container', 'y_train', 'log_plots_param', 'master_model_container', 'imputation_regressor', 'html_param'}
+2021-03-27 14:56:27,989:INFO:Preparing display monitor
+2021-03-27 14:56:27,989:INFO:Importing libraries
+2021-03-27 14:56:27,989:INFO:Copying data for preprocessing
+2021-03-27 14:56:27,993:INFO:Declaring preprocessing parameters
+2021-03-27 14:56:28,002:INFO:Creating preprocessing pipeline
+2021-03-27 14:56:28,164:INFO:Preprocessing pipeline created successfully
+2021-03-27 14:56:28,164:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2021-03-27 14:56:28,164:INFO:Creating global containers
+2021-03-27 14:56:28,164:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2021-03-27 14:56:33,814:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 14:56:33,815:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 14:56:33,945:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 14:56:33,946:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 14:56:33,947:INFO:Creating grid variables
+2021-03-27 14:56:33,973:INFO:create_model_container: 0
+2021-03-27 14:56:33,973:INFO:master_model_container: 0
+2021-03-27 14:56:33,973:INFO:display_container: 1
+2021-03-27 14:56:33,981:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['Gender',
+                                                            'Scholarship',
+                                                            'Hipertension',
+                                                            'Diabetes',
+                                                            'Alcoholism',
+                                                            'Handicap',
+                                                            'SMS_received',
+                                                            'Appointment_day_name',
+                                                            'Register_day_name'],
+                                      display_types=False,
+                                      features_todrop=['PatientId',
+                                                       'AppointmentID'],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=['Age',
+                                                          'Ap...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='No-show')),
+                ('fix_perfect', Remove_100(target='No-show')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2021-03-27 14:56:33,981:INFO:setup() succesfully completed......................................
+2021-03-27 17:34:30,093:INFO:PyCaret Supervised Module
+2021-03-27 17:34:30,093:INFO:ML Usecase: classification
+2021-03-27 17:34:30,093:INFO:version 2.3.0
+2021-03-27 17:34:30,093:INFO:Initializing setup()
+2021-03-27 17:34:30,101:INFO:Checking environment
+2021-03-27 17:34:30,102:INFO:python_version: 3.6.13
+2021-03-27 17:34:30,102:INFO:python_build: ('default', 'Feb 23 2021 21:15:04')
+2021-03-27 17:34:30,102:INFO:machine: x86_64
+2021-03-27 17:34:30,129:INFO:platform: Linux-4.14.214-160.339.amzn2.x86_64-x86_64-with-glibc2.9
+2021-03-27 17:34:30,129:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging.
+2021-03-27 17:34:30,129:INFO:Checking libraries
+2021-03-27 17:34:30,130:INFO:pd==1.1.4
+2021-03-27 17:34:30,130:INFO:numpy==1.19.5
+2021-03-27 17:34:30,130:INFO:sklearn==0.23.2
+2021-03-27 17:34:30,130:INFO:lightgbm==3.2.0
+2021-03-27 17:34:30,130:WARNING:catboost not found
+2021-03-27 17:34:30,130:WARNING:xgboost not found
+2021-03-27 17:34:30,461:INFO:mlflow==1.15.0
+2021-03-27 17:34:30,461:INFO:Checking Exceptions
+2021-03-27 17:34:30,462:INFO:Declaring global variables
+2021-03-27 17:34:30,462:INFO:USI: 8b88
+2021-03-27 17:34:30,462:INFO:pycaret_globals: {'pycaret_globals', 'transform_target_param', 'target_param', 'X_train', 'fold_generator', 'fix_imbalance_param', 'iterative_imputation_iters_param', 'y_test', 'logging_param', '_available_plots', 'fix_imbalance_method_param', '_all_models_internal', '_gpu_n_jobs_param', 'n_jobs_param', '_ml_usecase', 'fold_groups_param', 'imputation_classifier', 'html_param', 'exp_name_log', 'X_test', 'master_model_container', 'stratify_param', 'seed', 'imputation_regressor', 'y_train', 'USI', 'fold_shuffle_param', 'X', 'log_plots_param', 'y', 'display_container', 'gpu_param', 'experiment__', '_all_models', 'prep_pipe', 'fold_param', 'data_before_preprocess', '_all_metrics', 'create_model_container', 'transform_target_method_param', '_internal_pipeline'}
+2021-03-27 17:34:30,462:INFO:Preparing display monitor
+2021-03-27 17:34:30,462:INFO:Importing libraries
+2021-03-27 17:34:30,462:INFO:Copying data for preprocessing
+2021-03-27 17:34:30,466:INFO:Declaring preprocessing parameters
+2021-03-27 17:34:30,477:INFO:Creating preprocessing pipeline
+2021-03-27 17:34:30,668:INFO:Preprocessing pipeline created successfully
+2021-03-27 17:34:30,668:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2021-03-27 17:34:30,668:INFO:Creating global containers
+2021-03-27 17:34:30,669:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2021-03-27 17:34:36,330:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 17:34:36,331:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 17:34:36,463:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 17:34:36,464:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 17:34:36,464:INFO:Creating grid variables
+2021-03-27 17:34:36,489:INFO:create_model_container: 0
+2021-03-27 17:34:36,489:INFO:master_model_container: 0
+2021-03-27 17:34:36,490:INFO:display_container: 1
+2021-03-27 17:34:36,498:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['Gender',
+                                                            'Scholarship',
+                                                            'Hipertension',
+                                                            'Diabetes',
+                                                            'Alcoholism',
+                                                            'Handicap',
+                                                            'SMS_received',
+                                                            'Appointment_day_name',
+                                                            'Register_day_name'],
+                                      display_types=False,
+                                      features_todrop=['PatientId',
+                                                       'AppointmentID'],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=['Age',
+                                                          'Ap...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='No-show')),
+                ('fix_perfect', Remove_100(target='No-show')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2021-03-27 17:34:36,498:INFO:setup() succesfully completed......................................
+2021-03-27 17:35:08,458:INFO:PyCaret Supervised Module
+2021-03-27 17:35:08,458:INFO:ML Usecase: classification
+2021-03-27 17:35:08,458:INFO:version 2.3.0
+2021-03-27 17:35:08,458:INFO:Initializing setup()
+2021-03-27 17:35:08,466:INFO:Checking environment
+2021-03-27 17:35:08,467:INFO:python_version: 3.6.13
+2021-03-27 17:35:08,467:INFO:python_build: ('default', 'Feb 23 2021 21:15:04')
+2021-03-27 17:35:08,467:INFO:machine: x86_64
+2021-03-27 17:35:08,494:INFO:platform: Linux-4.14.214-160.339.amzn2.x86_64-x86_64-with-glibc2.9
+2021-03-27 17:35:08,494:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging.
+2021-03-27 17:35:08,495:INFO:Checking libraries
+2021-03-27 17:35:08,495:INFO:pd==1.1.4
+2021-03-27 17:35:08,495:INFO:numpy==1.19.5
+2021-03-27 17:35:08,495:INFO:sklearn==0.23.2
+2021-03-27 17:35:08,495:INFO:lightgbm==3.2.0
+2021-03-27 17:35:08,495:WARNING:catboost not found
+2021-03-27 17:35:08,495:WARNING:xgboost not found
+2021-03-27 17:35:08,833:INFO:mlflow==1.15.0
+2021-03-27 17:35:08,833:INFO:Checking Exceptions
+2021-03-27 17:35:08,833:INFO:Declaring global variables
+2021-03-27 17:35:08,834:INFO:USI: d169
+2021-03-27 17:35:08,834:INFO:pycaret_globals: {'_gpu_n_jobs_param', 'html_param', 'fold_generator', 'display_container', 'pycaret_globals', 'y', 'fix_imbalance_method_param', 'target_param', 'experiment__', 'stratify_param', 'imputation_classifier', 'y_test', 'transform_target_method_param', 'fix_imbalance_param', '_all_models', '_ml_usecase', '_available_plots', 'create_model_container', 'n_jobs_param', 'y_train', '_all_metrics', 'X_train', 'fold_shuffle_param', 'exp_name_log', '_all_models_internal', 'fold_groups_param', 'X', 'transform_target_param', 'log_plots_param', 'imputation_regressor', 'USI', '_internal_pipeline', 'X_test', 'gpu_param', 'master_model_container', 'logging_param', 'seed', 'iterative_imputation_iters_param', 'data_before_preprocess', 'fold_param', 'prep_pipe'}
+2021-03-27 17:35:08,834:INFO:Preparing display monitor
+2021-03-27 17:35:08,834:INFO:Importing libraries
+2021-03-27 17:35:08,834:INFO:Copying data for preprocessing
+2021-03-27 17:35:08,838:INFO:Declaring preprocessing parameters
+2021-03-27 17:35:08,850:INFO:Creating preprocessing pipeline
+2021-03-27 17:35:09,023:INFO:Preprocessing pipeline created successfully
+2021-03-27 17:35:09,024:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2021-03-27 17:35:09,024:INFO:Creating global containers
+2021-03-27 17:35:09,025:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2021-03-27 17:35:14,748:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 17:35:14,749:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 17:35:14,881:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 17:35:14,882:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 17:35:14,882:INFO:Creating grid variables
+2021-03-27 17:35:14,909:INFO:create_model_container: 0
+2021-03-27 17:35:14,909:INFO:master_model_container: 0
+2021-03-27 17:35:14,909:INFO:display_container: 1
+2021-03-27 17:35:14,917:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['Gender',
+                                                            'Scholarship',
+                                                            'Hipertension',
+                                                            'Diabetes',
+                                                            'Alcoholism',
+                                                            'Handicap',
+                                                            'SMS_received',
+                                                            'Appointment_day_name',
+                                                            'Register_day_name'],
+                                      display_types=False,
+                                      features_todrop=['PatientId',
+                                                       'AppointmentID'],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=['Age',
+                                                          'Ap...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='No-show')),
+                ('fix_perfect', Remove_100(target='No-show')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2021-03-27 17:35:14,918:INFO:setup() succesfully completed......................................
+2021-03-27 17:35:56,450:INFO:PyCaret Supervised Module
+2021-03-27 17:35:56,450:INFO:ML Usecase: classification
+2021-03-27 17:35:56,450:INFO:version 2.3.0
+2021-03-27 17:35:56,450:INFO:Initializing setup()
+2021-03-27 17:35:56,457:INFO:Checking environment
+2021-03-27 17:35:56,462:INFO:python_version: 3.6.13
+2021-03-27 17:35:56,463:INFO:python_build: ('default', 'Feb 23 2021 21:15:04')
+2021-03-27 17:35:56,463:INFO:machine: x86_64
+2021-03-27 17:35:56,492:INFO:platform: Linux-4.14.214-160.339.amzn2.x86_64-x86_64-with-glibc2.9
+2021-03-27 17:35:56,493:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging.
+2021-03-27 17:35:56,493:INFO:Checking libraries
+2021-03-27 17:35:56,493:INFO:pd==1.1.4
+2021-03-27 17:35:56,493:INFO:numpy==1.19.5
+2021-03-27 17:35:56,493:INFO:sklearn==0.23.2
+2021-03-27 17:35:56,493:INFO:lightgbm==3.2.0
+2021-03-27 17:35:56,493:WARNING:catboost not found
+2021-03-27 17:35:56,494:WARNING:xgboost not found
+2021-03-27 17:35:56,842:INFO:mlflow==1.15.0
+2021-03-27 17:35:56,843:INFO:Checking Exceptions
+2021-03-27 17:35:56,843:INFO:Declaring global variables
+2021-03-27 17:35:56,843:INFO:USI: 1cbe
+2021-03-27 17:35:56,843:INFO:pycaret_globals: {'log_plots_param', 'fold_shuffle_param', '_gpu_n_jobs_param', 'USI', 'imputation_classifier', 'n_jobs_param', 'experiment__', 'html_param', 'master_model_container', 'pycaret_globals', 'fold_generator', 'fold_groups_param', 'transform_target_method_param', '_all_models_internal', 'logging_param', 'gpu_param', '_available_plots', 'exp_name_log', 'transform_target_param', 'display_container', 'stratify_param', 'y', 'X', '_all_metrics', 'fold_param', '_ml_usecase', 'X_test', 'fix_imbalance_method_param', 'prep_pipe', 'create_model_container', '_internal_pipeline', 'iterative_imputation_iters_param', 'X_train', '_all_models', 'y_test', 'seed', 'y_train', 'data_before_preprocess', 'target_param', 'fix_imbalance_param', 'imputation_regressor'}
+2021-03-27 17:35:56,843:INFO:Preparing display monitor
+2021-03-27 17:35:56,843:INFO:Importing libraries
+2021-03-27 17:35:56,844:INFO:Copying data for preprocessing
+2021-03-27 17:35:56,848:INFO:Declaring preprocessing parameters
+2021-03-27 17:35:56,860:INFO:Creating preprocessing pipeline
+2021-03-27 17:35:57,041:INFO:Preprocessing pipeline created successfully
+2021-03-27 17:35:57,041:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2021-03-27 17:35:57,041:INFO:Creating global containers
+2021-03-27 17:35:57,042:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2021-03-27 17:36:02,930:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 17:36:02,931:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 17:36:03,064:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 17:36:03,064:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 17:36:03,065:INFO:Creating grid variables
+2021-03-27 17:36:03,093:INFO:create_model_container: 0
+2021-03-27 17:36:03,093:INFO:master_model_container: 0
+2021-03-27 17:36:03,093:INFO:display_container: 1
+2021-03-27 17:36:03,101:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['Gender',
+                                                            'Scholarship',
+                                                            'Hipertension',
+                                                            'Diabetes',
+                                                            'Alcoholism',
+                                                            'Handicap',
+                                                            'SMS_received',
+                                                            'Appointment_day_name',
+                                                            'Register_day_name'],
+                                      display_types=False,
+                                      features_todrop=['PatientId',
+                                                       'AppointmentID'],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=['Age',
+                                                          'Ap...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='No-show')),
+                ('fix_perfect', Remove_100(target='No-show')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2021-03-27 17:36:03,101:INFO:setup() succesfully completed......................................
+2021-03-27 17:36:22,776:INFO:PyCaret Supervised Module
+2021-03-27 17:36:22,776:INFO:ML Usecase: classification
+2021-03-27 17:36:22,776:INFO:version 2.3.0
+2021-03-27 17:36:22,776:INFO:Initializing setup()
+2021-03-27 17:36:22,786:INFO:Checking environment
+2021-03-27 17:36:22,786:INFO:python_version: 3.6.13
+2021-03-27 17:36:22,786:INFO:python_build: ('default', 'Feb 23 2021 21:15:04')
+2021-03-27 17:36:22,786:INFO:machine: x86_64
+2021-03-27 17:36:22,824:INFO:platform: Linux-4.14.214-160.339.amzn2.x86_64-x86_64-with-glibc2.9
+2021-03-27 17:36:22,824:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging.
+2021-03-27 17:36:22,824:INFO:Checking libraries
+2021-03-27 17:36:22,824:INFO:pd==1.1.4
+2021-03-27 17:36:22,824:INFO:numpy==1.19.5
+2021-03-27 17:36:22,825:INFO:sklearn==0.23.2
+2021-03-27 17:36:22,825:INFO:lightgbm==3.2.0
+2021-03-27 17:36:22,825:WARNING:catboost not found
+2021-03-27 17:36:22,825:WARNING:xgboost not found
+2021-03-27 17:36:23,403:INFO:mlflow==1.15.0
+2021-03-27 17:36:23,403:INFO:Checking Exceptions
+2021-03-27 17:36:23,404:INFO:Declaring global variables
+2021-03-27 17:36:23,404:INFO:USI: 378b
+2021-03-27 17:36:23,404:INFO:pycaret_globals: {'_all_metrics', 'create_model_container', 'seed', 'X', 'exp_name_log', 'experiment__', 'X_test', 'html_param', 'fold_shuffle_param', 'gpu_param', 'transform_target_param', 'data_before_preprocess', 'y_train', 'imputation_classifier', 'y', '_internal_pipeline', 'transform_target_method_param', '_ml_usecase', 'fix_imbalance_param', 'fold_param', 'y_test', 'display_container', 'n_jobs_param', '_gpu_n_jobs_param', 'fold_generator', '_all_models_internal', '_available_plots', 'prep_pipe', 'master_model_container', 'X_train', 'stratify_param', 'USI', 'log_plots_param', 'fold_groups_param', 'target_param', '_all_models', 'fix_imbalance_method_param', 'iterative_imputation_iters_param', 'logging_param', 'imputation_regressor', 'pycaret_globals'}
+2021-03-27 17:36:23,404:INFO:Preparing display monitor
+2021-03-27 17:36:23,404:INFO:Importing libraries
+2021-03-27 17:36:23,404:INFO:Copying data for preprocessing
+2021-03-27 17:36:23,410:INFO:Declaring preprocessing parameters
+2021-03-27 17:36:23,427:INFO:Creating preprocessing pipeline
+2021-03-27 17:36:23,722:INFO:Preprocessing pipeline created successfully
+2021-03-27 17:36:23,722:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2021-03-27 17:36:23,722:INFO:Creating global containers
+2021-03-27 17:36:23,723:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2021-03-27 17:36:34,362:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 17:36:34,363:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 17:36:34,565:WARNING:Couldn't import xgboost.XGBClassifier
+2021-03-27 17:36:34,565:WARNING:Couldn't import catboost.CatBoostClassifier
+2021-03-27 17:36:34,566:INFO:Creating grid variables
+2021-03-27 17:36:34,629:INFO:create_model_container: 0
+2021-03-27 17:36:34,629:INFO:master_model_container: 0
+2021-03-27 17:36:34,629:INFO:display_container: 1
+2021-03-27 17:36:34,652:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['Gender',
+                                                            'Scholarship',
+                                                            'Hipertension',
+                                                            'Diabetes',
+                                                            'Alcoholism',
+                                                            'Handicap',
+                                                            'SMS_received',
+                                                            'Appointment_day_name',
+                                                            'Register_day_name'],
+                                      display_types=False,
+                                      features_todrop=['PatientId',
+                                                       'AppointmentID'],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=['Age',
+                                                          'Ap...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='No-show')),
+                ('fix_perfect', Remove_100(target='No-show')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2021-03-27 17:36:34,661:INFO:setup() succesfully completed......................................
+2021-03-28 14:13:52,947:INFO:PyCaret Supervised Module
+2021-03-28 14:13:52,947:INFO:ML Usecase: classification
+2021-03-28 14:13:52,947:INFO:version 2.3.0
+2021-03-28 14:13:52,947:INFO:Initializing setup()
+2021-03-28 14:13:52,952:INFO:Checking environment
+2021-03-28 14:13:52,952:INFO:python_version: 3.6.13
+2021-03-28 14:13:52,952:INFO:python_build: ('default', 'Feb 23 2021 21:15:04')
+2021-03-28 14:13:52,952:INFO:machine: x86_64
+2021-03-28 14:13:52,952:INFO:platform: Linux-4.14.214-160.339.amzn2.x86_64-x86_64-with-glibc2.9
+2021-03-28 14:13:52,954:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging.
+2021-03-28 14:13:52,954:INFO:Checking libraries
+2021-03-28 14:13:52,954:INFO:pd==1.1.4
+2021-03-28 14:13:52,954:INFO:numpy==1.19.5
+2021-03-28 14:13:52,954:INFO:sklearn==0.23.2
+2021-03-28 14:13:52,954:INFO:lightgbm==3.2.0
+2021-03-28 14:13:52,954:WARNING:catboost not found
+2021-03-28 14:13:52,954:WARNING:xgboost not found
+2021-03-28 14:13:52,954:INFO:mlflow==1.15.0
+2021-03-28 14:13:52,954:INFO:Checking Exceptions
+2021-03-28 22:17:27,994:INFO:PyCaret Supervised Module
+2021-03-28 22:17:27,994:INFO:ML Usecase: classification
+2021-03-28 22:17:27,994:INFO:version 2.3.0
+2021-03-28 22:17:27,995:INFO:Initializing setup()
+2021-03-28 22:17:27,998:INFO:Checking environment
+2021-03-28 22:17:27,998:INFO:python_version: 3.6.13
+2021-03-28 22:17:27,998:INFO:python_build: ('default', 'Feb 23 2021 21:15:04')
+2021-03-28 22:17:27,998:INFO:machine: x86_64
+2021-03-28 22:17:27,998:INFO:platform: Linux-4.14.214-160.339.amzn2.x86_64-x86_64-with-glibc2.9
+2021-03-28 22:17:28,003:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging.
+2021-03-28 22:17:28,003:INFO:Checking libraries
+2021-03-28 22:17:28,004:INFO:pd==1.1.4
+2021-03-28 22:17:28,004:INFO:numpy==1.19.5
+2021-03-28 22:17:28,004:INFO:sklearn==0.23.2
+2021-03-28 22:17:28,004:INFO:lightgbm==3.2.0
+2021-03-28 22:17:28,004:WARNING:catboost not found
+2021-03-28 22:17:28,004:WARNING:xgboost not found
+2021-03-28 22:17:28,004:INFO:mlflow==1.15.0
+2021-03-28 22:17:28,004:INFO:Checking Exceptions
+2021-03-28 22:17:40,360:INFO:PyCaret Supervised Module
+2021-03-28 22:17:40,361:INFO:ML Usecase: classification
+2021-03-28 22:17:40,361:INFO:version 2.3.0
+2021-03-28 22:17:40,361:INFO:Initializing setup()
+2021-03-28 22:17:40,363:INFO:Checking environment
+2021-03-28 22:17:40,363:INFO:python_version: 3.6.13
+2021-03-28 22:17:40,366:INFO:python_build: ('default', 'Feb 23 2021 21:15:04')
+2021-03-28 22:17:40,367:INFO:machine: x86_64
+2021-03-28 22:17:40,368:INFO:platform: Linux-4.14.214-160.339.amzn2.x86_64-x86_64-with-glibc2.9
+2021-03-28 22:17:40,368:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging.
+2021-03-28 22:17:40,368:INFO:Checking libraries
+2021-03-28 22:17:40,368:INFO:pd==1.1.4
+2021-03-28 22:17:40,368:INFO:numpy==1.19.5
+2021-03-28 22:17:40,368:INFO:sklearn==0.23.2
+2021-03-28 22:17:40,368:INFO:lightgbm==3.2.0
+2021-03-28 22:17:40,368:WARNING:catboost not found
+2021-03-28 22:17:40,369:WARNING:xgboost not found
+2021-03-28 22:17:40,369:INFO:mlflow==1.15.0
+2021-03-28 22:17:40,369:INFO:Checking Exceptions
+2021-03-28 22:17:54,342:INFO:PyCaret Supervised Module
+2021-03-28 22:17:54,343:INFO:ML Usecase: classification
+2021-03-28 22:17:54,343:INFO:version 2.3.0
+2021-03-28 22:17:54,343:INFO:Initializing setup()
+2021-03-28 22:17:54,345:INFO:Checking environment
+2021-03-28 22:17:54,346:INFO:python_version: 3.6.13
+2021-03-28 22:17:54,349:INFO:python_build: ('default', 'Feb 23 2021 21:15:04')
+2021-03-28 22:17:54,350:INFO:machine: x86_64
+2021-03-28 22:17:54,350:INFO:platform: Linux-4.14.214-160.339.amzn2.x86_64-x86_64-with-glibc2.9
+2021-03-28 22:17:54,350:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging.
+2021-03-28 22:17:54,350:INFO:Checking libraries
+2021-03-28 22:17:54,350:INFO:pd==1.1.4
+2021-03-28 22:17:54,350:INFO:numpy==1.19.5
+2021-03-28 22:17:54,350:INFO:sklearn==0.23.2
+2021-03-28 22:17:54,350:INFO:lightgbm==3.2.0
+2021-03-28 22:17:54,350:WARNING:catboost not found
+2021-03-28 22:17:54,351:WARNING:xgboost not found
+2021-03-28 22:17:54,351:INFO:mlflow==1.15.0
+2021-03-28 22:17:54,351:INFO:Checking Exceptions
+2021-03-28 22:18:08,910:INFO:PyCaret Supervised Module
+2021-03-28 22:18:08,910:INFO:ML Usecase: classification
+2021-03-28 22:18:08,910:INFO:version 2.3.0
+2021-03-28 22:18:08,910:INFO:Initializing setup()
+2021-03-28 22:18:08,916:INFO:Checking environment
+2021-03-28 22:18:08,919:INFO:python_version: 3.6.13
+2021-03-28 22:18:08,920:INFO:python_build: ('default', 'Feb 23 2021 21:15:04')
+2021-03-28 22:18:08,920:INFO:machine: x86_64
+2021-03-28 22:18:08,920:INFO:platform: Linux-4.14.214-160.339.amzn2.x86_64-x86_64-with-glibc2.9
+2021-03-28 22:18:08,920:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging.
+2021-03-28 22:18:08,920:INFO:Checking libraries
+2021-03-28 22:18:08,920:INFO:pd==1.1.4
+2021-03-28 22:18:08,920:INFO:numpy==1.19.5
+2021-03-28 22:18:08,921:INFO:sklearn==0.23.2
+2021-03-28 22:18:08,921:INFO:lightgbm==3.2.0
+2021-03-28 22:18:08,921:WARNING:catboost not found
+2021-03-28 22:18:08,921:WARNING:xgboost not found
+2021-03-28 22:18:08,921:INFO:mlflow==1.15.0
+2021-03-28 22:18:08,922:INFO:Checking Exceptions
+2021-03-29 07:50:09,772:INFO:PyCaret Supervised Module
+2021-03-29 07:50:09,772:INFO:ML Usecase: classification
+2021-03-29 07:50:09,772:INFO:version 2.3.0
+2021-03-29 07:50:09,772:INFO:Initializing setup()
+2021-03-29 07:50:09,778:INFO:Checking environment
+2021-03-29 07:50:09,778:INFO:python_version: 3.6.13
+2021-03-29 07:50:09,778:INFO:python_build: ('default', 'Feb 23 2021 21:15:04')
+2021-03-29 07:50:09,778:INFO:machine: x86_64
+2021-03-29 07:50:09,778:INFO:platform: Linux-4.14.214-160.339.amzn2.x86_64-x86_64-with-glibc2.9
+2021-03-29 07:50:09,778:WARNING:cannot find psutil installation. memory not traceable. Install psutil using pip to enable memory logging.
+2021-03-29 07:50:09,779:INFO:Checking libraries
+2021-03-29 07:50:09,779:INFO:pd==1.1.4
+2021-03-29 07:50:09,779:INFO:numpy==1.19.5
+2021-03-29 07:50:09,779:INFO:sklearn==0.23.2
+2021-03-29 07:50:09,779:INFO:lightgbm==3.2.0
+2021-03-29 07:50:09,779:WARNING:catboost not found
+2021-03-29 07:50:09,779:WARNING:xgboost not found
+2021-03-29 07:50:09,779:INFO:mlflow==1.15.0
+2021-03-29 07:50:09,779:INFO:Checking Exceptions
